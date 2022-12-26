@@ -10,37 +10,33 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.activityBar.visible": false,
   "workbench.sideBar.location": "right",
-  "window.zoomLevel": 1,
   //start of daniel roe configs
   "files.enableTrash": false,
   "files.exclude": {
     ".cache-loader/": true,
+    ".editorconfig": true,
     ".gitattributes": true,
+    ".gitignore": true,
     ".gitkeep": true,
+    ".nuxt": true,
+    ".output": true,
+    ".output/node_modules/": false,
     ".travis.yml": true,
     ".vercel": true,
     ".vscode/": true,
-    "coverage": true,
+    "**/README.md": true,
     "acf-json": true,
     "backend/vendor": true,
     "CODE_OF_CONDUCT.md": true,
     "config": false,
+    "coverage": true,
     "LICENSE.md": true,
+    "node_modules/": true,
     "package-lock.json": true,
     "phpcs.xml": true,
-    // For more minimal option
-    ".editorconfig": true,
     "prettier.config.js": true,
-    "**/README.md": true,
-    "yarn.lock": true,
-    "node_modules/": true,
-    ".gitignore": true,
-    ".output/node_modules/": false,
-    // And even more ultra minimal
-    ".nuxt": true,
-    ".output": true,
-    "package.json": true,
-    "tsconfig.json": true
+    "tsconfig.json": true,
+    "yarn.lock": true
   },
   "window.title": "",
   // "git.decorations.enabled": false,
@@ -103,14 +99,36 @@
   "zenMode.hideTabs": true,
   "zenMode.centerLayout": false,
   // Theming
-  "terminal.integrated.fontFamily": "Dank Mono",
   "window.autoDetectColorScheme": true,
   "editor.codeLensFontSize": 13,
   "editor.lineHeight": 1.75,
   "editor.suggestFontSize": 15,
   "editor.suggestLineHeight": 28,
-  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontSize": 14,
   "terminal.integrated.lineHeight": 1,
   "debug.console.fontSize": 10,
-  "workbench.colorTheme": "SynthWave '84"
+  "workbench.colorTheme": "SynthWave '84",
+  "files.associations": {
+    "*.ts": "typescript"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1,
+  "editor.wordWrap": "on",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
