@@ -1,16 +1,12 @@
 <h1 align="center">Hi 👋, I'm Chisom</h1>
-<h3 align="center">A Fullstack Javascript/Typescript Developer</h3>
+<h3 align="center">A Laravel Artisan</h3>
 
 <br>
 <br>
 
 
 
-- 🔭 I am currently working at [**DataMall**](https://thedatamall.io)
-
-- 🔭 also working on [Sukkart](https://sukkart.com)
-
-- 👨‍💻 All of my projects are available at [Chisom.Dev](https://chisom.dev)
+- 🔭 I am currently working at [**FUNZWEB**](https://funzweb.com)
 
 - 📫 How to reach me **chisomgabta@gmail.com**
 
