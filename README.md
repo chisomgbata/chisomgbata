@@ -6,7 +6,7 @@
 
 
 
-- 🔭 I am currently working at [**FUNZWEB**](https://funzweb.com)
+- 🔭 I am currently working at [**FUNZWEB**](https://www.funzweb.com)
 
 - 📫 How to reach me **chisomgabta@gmail.com**
 
